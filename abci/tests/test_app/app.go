@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
+	abcicli "github.com/oneiro-ndev/tendermint.0.32.3/abci/client"
+	"github.com/oneiro-ndev/tendermint.0.32.3/abci/types"
+	"github.com/oneiro-ndev/tendermint.0.32.3/libs/log"
 )
 
 func startClient(abciType string) abcicli.Client {

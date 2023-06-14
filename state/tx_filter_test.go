@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	cmn "github.com/oneiro-ndev/tendermint.0.32.3/libs/common"
+	sm "github.com/oneiro-ndev/tendermint.0.32.3/state"
+	"github.com/oneiro-ndev/tendermint.0.32.3/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

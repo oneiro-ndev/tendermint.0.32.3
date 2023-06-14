@@ -7,12 +7,12 @@ import (
 	"time"
 
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/behaviour"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	"github.com/oneiro-ndev/tendermint.0.32.3/behaviour"
+	"github.com/oneiro-ndev/tendermint.0.32.3/libs/log"
+	"github.com/oneiro-ndev/tendermint.0.32.3/p2p"
+	sm "github.com/oneiro-ndev/tendermint.0.32.3/state"
+	"github.com/oneiro-ndev/tendermint.0.32.3/store"
+	"github.com/oneiro-ndev/tendermint.0.32.3/types"
 )
 
 const (

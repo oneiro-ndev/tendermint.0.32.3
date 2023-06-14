@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
+	abcicli "github.com/oneiro-ndev/tendermint.0.32.3/abci/client"
+	"github.com/oneiro-ndev/tendermint.0.32.3/abci/server"
+	"github.com/oneiro-ndev/tendermint.0.32.3/abci/types"
+	cmn "github.com/oneiro-ndev/tendermint.0.32.3/libs/common"
 )
 
 func TestSocketClientStopForErrorDeadlock(t *testing.T) {

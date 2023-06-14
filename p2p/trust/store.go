@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
+	cmn "github.com/oneiro-ndev/tendermint.0.32.3/libs/common"
 	dbm "github.com/tendermint/tm-db"
 )
 

@@ -14,7 +14,7 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/tendermint/tendermint/crypto"
+	"github.com/oneiro-ndev/tendermint.0.32.3/crypto"
 )
 
 //-------------------------------------

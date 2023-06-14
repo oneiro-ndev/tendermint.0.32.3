@@ -9,11 +9,11 @@ import (
 	"github.com/go-kit/kit/log/term"
 	"github.com/stretchr/testify/assert"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/oneiro-ndev/tendermint.0.32.3/config"
+	"github.com/oneiro-ndev/tendermint.0.32.3/crypto/secp256k1"
+	"github.com/oneiro-ndev/tendermint.0.32.3/libs/log"
+	"github.com/oneiro-ndev/tendermint.0.32.3/p2p"
+	"github.com/oneiro-ndev/tendermint.0.32.3/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

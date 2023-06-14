@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/oneiro-ndev/tendermint.0.32.3/abci/types"
+	cmn "github.com/oneiro-ndev/tendermint.0.32.3/libs/common"
+	"github.com/oneiro-ndev/tendermint.0.32.3/libs/pubsub/query"
+	"github.com/oneiro-ndev/tendermint.0.32.3/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

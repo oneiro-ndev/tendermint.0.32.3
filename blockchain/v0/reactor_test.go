@@ -7,19 +7,19 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/tendermint/tendermint/store"
+	"github.com/oneiro-ndev/tendermint.0.32.3/store"
 
 	"github.com/stretchr/testify/assert"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/mock"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	abci "github.com/oneiro-ndev/tendermint.0.32.3/abci/types"
+	cfg "github.com/oneiro-ndev/tendermint.0.32.3/config"
+	"github.com/oneiro-ndev/tendermint.0.32.3/libs/log"
+	"github.com/oneiro-ndev/tendermint.0.32.3/mock"
+	"github.com/oneiro-ndev/tendermint.0.32.3/p2p"
+	"github.com/oneiro-ndev/tendermint.0.32.3/proxy"
+	sm "github.com/oneiro-ndev/tendermint.0.32.3/state"
+	"github.com/oneiro-ndev/tendermint.0.32.3/types"
+	tmtime "github.com/oneiro-ndev/tendermint.0.32.3/types/time"
 	dbm "github.com/tendermint/tm-db"
 )
 

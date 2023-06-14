@@ -6,10 +6,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
+	tmpubsub "github.com/oneiro-ndev/tendermint.0.32.3/libs/pubsub"
+	tmquery "github.com/oneiro-ndev/tendermint.0.32.3/libs/pubsub/query"
+	ctypes "github.com/oneiro-ndev/tendermint.0.32.3/rpc/core/types"
+	rpctypes "github.com/oneiro-ndev/tendermint.0.32.3/rpc/lib/types"
 )
 
 // Subscribe for events via WebSocket.
@@ -33,8 +33,8 @@ import (
 // DeliverTx response.
 //
 //  import (
-//	  abci "github.com/tendermint/tendermint/abci/types"
-// 	  "github.com/tendermint/tendermint/libs/pubsub/query"
+//	  abci "github.com/oneiro-ndev/tendermint.0.32.3/abci/types"
+// 	  "github.com/oneiro-ndev/tendermint.0.32.3/libs/pubsub/query"
 //  )
 //
 //  abci.ResponseDeliverTx{
@@ -101,13 +101,13 @@ import (
 //  query.MustParse("tm.event = 'Tx' AND rewards.withdraw.source = 'W'")
 //
 // See list of all possible events here
-// https://godoc.org/github.com/tendermint/tendermint/types#pkg-constants
+// https://godoc.org/github.com/oneiro-ndev/tendermint.0.32.3/types#pkg-constants
 //
 // For complete query syntax, check out
-// https://godoc.org/github.com/tendermint/tendermint/libs/pubsub/query.
+// https://godoc.org/github.com/oneiro-ndev/tendermint.0.32.3/libs/pubsub/query.
 //
 // ```go
-// import "github.com/tendermint/tendermint/types"
+// import "github.com/oneiro-ndev/tendermint.0.32.3/types"
 //
 // client := client.NewHTTP("tcp://0.0.0.0:26657", "/websocket")
 // err := client.Start()

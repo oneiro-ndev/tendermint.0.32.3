@@ -1,7 +1,7 @@
 package core
 
 import (
-	rpc "github.com/tendermint/tendermint/rpc/lib/server"
+	rpc "github.com/oneiro-ndev/tendermint.0.32.3/rpc/lib/server"
 )
 
 // TODO: better system than "unsafe" prefix

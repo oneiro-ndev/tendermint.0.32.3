@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tendermint/tendermint/abci/example/code"
-	"github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/log"
-	tmtypes "github.com/tendermint/tendermint/types"
+	"github.com/oneiro-ndev/tendermint.0.32.3/abci/example/code"
+	"github.com/oneiro-ndev/tendermint.0.32.3/abci/types"
+	"github.com/oneiro-ndev/tendermint.0.32.3/crypto/ed25519"
+	"github.com/oneiro-ndev/tendermint.0.32.3/libs/log"
+	tmtypes "github.com/oneiro-ndev/tendermint.0.32.3/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/privval"
+	cmn "github.com/oneiro-ndev/tendermint.0.32.3/libs/common"
+	"github.com/oneiro-ndev/tendermint.0.32.3/privval"
 )
 
 // ShowValidatorCmd adds capabilities for showing the validator info.

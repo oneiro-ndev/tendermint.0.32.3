@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/tendermint/tendermint/types"
+	"github.com/oneiro-ndev/tendermint.0.32.3/types"
 )
 
 //------------------------------------------------------

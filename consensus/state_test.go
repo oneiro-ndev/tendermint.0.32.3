@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cstypes "github.com/tendermint/tendermint/consensus/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	p2pmock "github.com/tendermint/tendermint/p2p/mock"
-	"github.com/tendermint/tendermint/types"
+	cstypes "github.com/oneiro-ndev/tendermint.0.32.3/consensus/types"
+	cmn "github.com/oneiro-ndev/tendermint.0.32.3/libs/common"
+	"github.com/oneiro-ndev/tendermint.0.32.3/libs/log"
+	tmpubsub "github.com/oneiro-ndev/tendermint.0.32.3/libs/pubsub"
+	p2pmock "github.com/oneiro-ndev/tendermint.0.32.3/p2p/mock"
+	"github.com/oneiro-ndev/tendermint.0.32.3/types"
 )
 
 /*
