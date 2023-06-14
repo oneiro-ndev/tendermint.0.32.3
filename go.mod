@@ -1,4 +1,4 @@
-module github.com/tendermint/tendermint
+module github.com/oneiro-ndev/tendermint
 
 go 1.12
 
