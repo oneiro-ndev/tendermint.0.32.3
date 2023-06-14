@@ -1,4 +1,4 @@
-module github.com/oneiro-ndev/tendermint
+module github.com/oneiro-ndev/tendermint.0.32.3
 
 go 1.12
 
